@@ -1,0 +1,20 @@
+{
+  "id": "Future-1.12.2",
+  "inheritsFrom": "1.12.2",
+  "releaseTime": "1960-01-01T15:00:00+08:00",
+  "time": "2019-01-04T10:09:58+08:00",
+  "type": "release",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge --tweakClass net.futureclient.loader.launch.launchwrapper.LaunchWrapperEntryPoint",
+  "libraries": [
+    {
+      "name": "net.futureclient:loader:1.0"
+    },
+    {
+      "name": "org.ow2.asm:asm-all:5.0.3"
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch"
+}
